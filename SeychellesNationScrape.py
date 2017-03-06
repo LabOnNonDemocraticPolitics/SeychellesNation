@@ -1,7 +1,7 @@
 # Theodore Chu
-# March 4, 2017
+# March 5, 2017
 # For the USC Lab on Non-Democratic Politics under the direction of Erin Baggott Carter and Brett Logan Carter
-# Scrapes the Granma (Cuba)
+# Scrapes Seychelles's The Nation
 # Prints all sections
 # Encodes in UTF-8
 
