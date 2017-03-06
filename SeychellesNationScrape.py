@@ -135,13 +135,6 @@ class SeychellesNation(object):
                 print("Error in printing full page")
                 print(str(e))
 
-    # There is no need to add months
-    def startDateAddMonth(self):
-        if self.__startDate.month < 12:
-            self.__startDate = datetime.datetime.strptime(str(self.__startDate.year) + str(self.__startDate.month + 1), "%Y%m")
-        else:
-            self.__startDate = datetime.datetime.strptime(str(self.__startDate.year + 1) + "01", "%Y%m")
-        return self.__startDate
 
     def closeFile(self):
         self.__fileOut.close()
